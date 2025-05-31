@@ -1,0 +1,12 @@
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\bin\Debug\net9.0\PotatoQueueConnector.deps.json
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\bin\Debug\net9.0\PotatoQueueConnector.dll
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\bin\Debug\net9.0\PotatoQueueConnector.pdb
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.csproj.AssemblyReference.cache
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.AssemblyInfoInputs.cache
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.AssemblyInfo.cs
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.csproj.CoreCompileInputs.cache
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.dll
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\refint\PotatoQueueConnector.dll
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\PotatoQueueConnector.pdb
+C:\Applications\PotatoQueueConnector\PotatoQueueConnector\obj\Debug\net9.0\ref\PotatoQueueConnector.dll
