@@ -38,6 +38,17 @@ public class KafkaIntegrationTestBase
             .WithImage("confluentinc/cp-kafka:7.5.0")
             .Build();
         _kafkaContainer.StartAsync().GetAwaiter().GetResult();
+        
+        // In your test setup, add Schema Registry container
+        _schemaRegistryContainer = new ContainerBuilder()
+            .WithImage("confluentinc/cp-schema-registry:7.5.0")
+            .WithPortBinding(8081, 8081)
+            .WithEnvironment("SCHEMA_REGISTRY_HOST_NAME", "schema-registry")
+            .WithEnvironment("SCHEMA_REGISTRY_LISTENERS", "http://0.0.0.0:8081")
+            .WithEnvironment("SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS", "host.docker.internal:9092")
+            .Build();
+
+        await _schemaRegistryContainer.StartAsync();
 
         // Start containers in parallel for faster startup
         //var kafkaTask = StartKafkaAsync();
