@@ -1,0 +1,27 @@
+// Protos/potato.proto
+syntax = "proto3";
+
+package potatoqueue;
+
+option csharp_namespace = "PotatoQueueConnector.Messages";
+
+// Individual potato message
+message Potato {
+  string id = 1;
+  string type = 2;  // FrenchFry, HashBrown, etc.
+  string farm_id = 3;
+  string status = 4;  // Raw, Processing, Complete
+  int32 priority = 5;
+  int64 created_timestamp = 6;
+  map<string, string> metadata = 7;
+}
+
+// Potato farm (batch) message  
+message PotatoFarm {
+  string id = 1;
+  int32 total_potatoes = 2;
+  int32 processed_potatoes = 3;
+  string status = 4;  // Pending, Processing, Complete
+  int64 created_timestamp = 5;
+  repeated string potato_ids = 6;
+}
